@@ -25,7 +25,7 @@ def get_entries(domain) -> list[str]:
     return entries
 
 
-def main(domains=list(), output="output.txt", format="txt"):
+def generate(domains=list(), output="output.txt", format="txt"):
     if output == "-":
         f = sys.stdout
     else:
@@ -43,7 +43,7 @@ def main(domains=list(), output="output.txt", format="txt"):
             f.write(json.dumps(all_entries))
 
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "-d",
@@ -61,4 +61,8 @@ if __name__ == "__main__":
         parser.print_help()
         sys.exit(1)
 
-    main(domains=args.domains, output=args.output, format=args.format)
+    generate(domains=args.domains, output=args.output, format=args.format)
+
+
+if __name__ == "__main__":
+    main()

@@ -9,6 +9,8 @@ readme = "README.md"
 python = "^3.10"
 dnspython = "^2.7.0"
 
+[tool.poetry.scripts]
+generate = 'outbound_ip_monitor.generate:main'
 
 [build-system]
 requires = ["poetry-core"]
