@@ -22,8 +22,8 @@ jobs:
         run: poetry install
       - name: generate output
         run: |
-          python generate.py -d $DOMAINS -f txt -o output/outbound.txt
-          python generate.py -d $DOMAINS -f json -o output/outbound.json
+          poetry run generate -- -d $DOMAINS -f txt -o output/outbound.txt
+          poetry run generate -- -d $DOMAINS -f json -o output/outbound.json
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v3
