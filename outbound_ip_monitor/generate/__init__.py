@@ -22,6 +22,7 @@ def get_entries(domain) -> list[str]:
         print(f"Domain {domain} does not exist.")
         return []
 
+    entries.sort()
     return entries
 
 
