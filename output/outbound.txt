@@ -26,8 +26,6 @@
 51.158.55.180
 # outbound-ips-region-sfo.infra.prod.koyeb.com
 104.238.181.106
-147.28.180.95
-147.75.90.35
 149.28.199.43
 # outbound-ips-region-sin.infra.prod.koyeb.com
 15.235.214.155
