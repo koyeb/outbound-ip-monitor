@@ -9,7 +9,7 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     env:
-      DOMAINS: outbound-ips-region-fra.infra.prod.koyeb.com,outbound-ips-region-par.infra.prod.koyeb.com,outbound-ips-region-sfo.infra.prod.koyeb.com,outbound-ips-region-sin.infra.prod.koyeb.com,outbound-ips-region-tyo.infra.prod.koyeb.com,outbound-ips-region-was.infra.prod.koyeb.com,outbound-ips-region-dal.infra.prod.koyeb.com,outbound-ips-region-rdu.infra.prod.koyeb.com
+      DOMAINS: outbound-ips-region-fra.infra.prod.koyeb.com,outbound-ips-region-par.infra.prod.koyeb.com,outbound-ips-region-sfo.infra.prod.koyeb.com,outbound-ips-region-sin.infra.prod.koyeb.com,outbound-ips-region-tyo.infra.prod.koyeb.com,outbound-ips-region-was.infra.prod.koyeb.com,outbound-ips-region-dal.infra.prod.koyeb.com,outbound-ips-region-rdu.infra.prod.koyeb.com,outbound-ips-region-dsm.infra.prod.koyeb.com
     steps:
       - name: Clone
         uses: actions/checkout@v2
