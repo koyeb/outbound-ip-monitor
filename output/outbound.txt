@@ -53,3 +53,5 @@
 # outbound-ips-region-rdu.infra.prod.koyeb.com
 104.225.3.164
 104.225.3.165
+# outbound-ips-region-dsm.infra.prod.koyeb.com
+216.81.245.144
