@@ -21,6 +21,7 @@
 # outbound-ips-region-par.infra.prod.koyeb.com
 195.154.212.125
 195.154.212.130
+195.154.212.147
 51.158.55.170
 51.158.55.180
 # outbound-ips-region-sfo.infra.prod.koyeb.com
