@@ -25,7 +25,6 @@
 57.129.76.67
 # outbound-ips-region-par.infra.prod.koyeb.com
 195.154.212.125
-195.154.212.130
 195.154.212.147
 51.158.55.170
 51.158.55.180
@@ -64,11 +63,8 @@
 185.26.9.183
 185.26.9.185
 # outbound-ips-region-dal.infra.prod.koyeb.com
-160.202.129.159
 # outbound-ips-region-rdu.infra.prod.koyeb.com
 104.225.3.164
 104.225.3.165
 # outbound-ips-region-dsm.infra.prod.koyeb.com
 216.243.220.208
-216.81.245.144
-216.81.245.47
