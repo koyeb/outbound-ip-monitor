@@ -1,4 +1,7 @@
 # outbound-ips-region-fra.infra.prod.koyeb.com
+103.219.171.129
+103.219.171.131
+103.219.171.245
 103.219.171.247
 103.219.171.9
 109.94.96.33
@@ -46,15 +49,6 @@
 51.159.106.67
 51.159.106.68
 # outbound-ips-region-sfo.infra.prod.koyeb.com
-104.225.6.228
-104.225.6.229
-104.225.6.230
-104.225.6.231
-104.225.6.232
-104.225.6.233
-104.225.6.234
-104.225.6.235
-104.225.6.236
 104.238.181.106
 149.28.199.43
 # outbound-ips-region-sin.infra.prod.koyeb.com
@@ -84,7 +78,5 @@
 67.213.115.40
 # outbound-ips-region-dal.infra.prod.koyeb.com
 # outbound-ips-region-rdu.infra.prod.koyeb.com
-104.225.3.164
-104.225.3.165
 # outbound-ips-region-dsm.infra.prod.koyeb.com
 216.243.220.208
